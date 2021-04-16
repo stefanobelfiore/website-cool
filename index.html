@@ -93,14 +93,21 @@
 
         <section></section>
 
-        <footer class="container border col 5 m-5">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Dirección de email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu email">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Texto"></textarea>
+        <footer>
+            <div class="formulario">
+                    <h1>Contacto</h1>
+                    <p>¡Envíanos tus noticias o recetas!</p>
+                <form class="container border bg-light col-md-4">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección de email:</label>
+                        <input type="email" class="form-control col 5" id="exampleFormControlInput1" placeholder="Tu email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Texto"></textarea>
+                    </div>
+                    <button type="button" class="m-4 btn btn-primary col 5" data-toggle="button" aria-pressed="false" autocomplete="off">Enviar</button>           
+                </form>
             </div>
         </footer>
 

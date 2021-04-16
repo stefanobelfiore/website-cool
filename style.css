@@ -6,3 +6,8 @@
     object-fit:cover;
     max-height:30rem;
 }
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
