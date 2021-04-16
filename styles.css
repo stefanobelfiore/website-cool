@@ -1,11 +1,16 @@
 .article-1{
     display: inline-flex;
 }
-.h2-article1{
+.article-2{
+    display: inline-flex;
+}
+.h2-article-1,
+.h2-article-2{
     font-family: 'Orelega One', cursive;
 }
 .article-1-left li{
-    font-family: 'Orelega One', cursive;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Orelega One', cursive;
 font-family: 'RocknRoll One', sans-serif;
 }
 
@@ -17,4 +22,7 @@ font-family: 'RocknRoll One', sans-serif;
 .mynavbar{
     background-color:#a3ed39;
 }
+.article-2-right li{font-family: 'Dancing Script', cursive;
+font-family: 'Orelega One', cursive;
+font-family: 'RocknRoll One', sans-serif;}
 
