@@ -1,0 +1,20 @@
+.article-1{
+    display: inline-flex;
+}
+.h2-article1{
+    font-family: 'Orelega One', cursive;
+}
+.article-1-left li{
+    font-family: 'Orelega One', cursive;
+font-family: 'RocknRoll One', sans-serif;
+}
+
+.image-article-1{
+    margin-top: 1rem;
+    height: 20rem;
+    border-radius: 90%;
+}
+.mynavbar{
+    background-color:#a3ed39;
+}
+
