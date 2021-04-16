@@ -22,9 +22,25 @@ font-family: 'RocknRoll One', sans-serif;
 .mynavbar{
     background-color:#a3ed39;
 }
-.article-2-right li{font-family: 'Dancing Script', cursive;
+.article-2-right li{
+    font-family: 'Dancing Script', cursive;
 font-family: 'Orelega One', cursive;
 font-family: 'RocknRoll One', sans-serif;}
 
-.card-img-top{max-height: 14rem;}
+.card-img-top{
+    max-height: 14rem;
+}
+.carousel-inner{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover;
+    max-height:30rem;
+}
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
 
