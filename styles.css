@@ -1,35 +1,27 @@
 .article-1{
     display: inline-flex;
 }
+
 .article-2{
     display: inline-flex;
 }
-.h2-article-1,
-.h2-article-2{
-    font-family: 'Orelega One', cursive;
-}
+
 .article-1-left li{
     font-family: 'Dancing Script', cursive;
 font-family: 'Orelega One', cursive;
 font-family: 'RocknRoll One', sans-serif;
 }
 
-.image-article-1{
-    margin-top: 1rem;
-    height: 20rem;
-    border-radius: 90%;
-}
-.mynavbar{
-    background-color:#a3ed39;
-}
 .article-2-right li{
     font-family: 'Dancing Script', cursive;
 font-family: 'Orelega One', cursive;
-font-family: 'RocknRoll One', sans-serif;}
+font-family: 'RocknRoll One', sans-serif;
+}
 
 .card-img-top{
     max-height: 14rem;
 }
+
 .carousel-inner{
     width: 100%;
     height: auto;
@@ -38,9 +30,30 @@ font-family: 'RocknRoll One', sans-serif;}
     object-fit:cover;
     max-height:30rem;
 }
+
+.h2-article-1,
+.h2-article-2{
+    font-family: 'Orelega One', cursive;
+}
+
+.image-article-1{
+    margin-top: 1rem;
+    height: 20rem;
+    border-radius: 90%;
+}
+
+.mynavbar{
+    background-color:#a3ed39;
+}
+
 .formulario{
     margin-left: auto;
     margin-right: auto;
     text-align: center
 }
 
+body{
+    margin-bottom: 10rem;
+}
+
+footer{margin-top: 5rem;}
